@@ -166,7 +166,7 @@ Home.get('/', (c) => {
                 <span class="text-xs uppercase bg-opacity-15 rounded text-center max-w-fit px-2 py-1 font-bold tracking-wide bg-blue-500 text-blue-500">
                   Contact
                 </span>
-                <span class="text-neutral-200 font-bold text-lg sm:text-xl md:text-2xl mt-2">Rishabh Sahil</span>
+                <span class="text-neutral-200 font-bold text-lg sm:text-xl md:text-2xl mt-2">Rishabh Kumar</span>
                 <div class="text-neutral-500 mt-2">
                   Have a question or need help? Reach out on{' '}
                   <a
