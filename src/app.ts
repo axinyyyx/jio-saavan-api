@@ -47,7 +47,7 @@ export class App {
           version: '1.0.0',
           title: 'JioSaavn API',
           description: `# Introduction 
-        \nJioSaavn API, accessible at [saavn.dev](https://saavn.dev), is an unofficial API that allows users to download high-quality songs from [JioSaavn](https://jiosaavn.com). 
+        \nJioSaavn API, accessible at [api jio saavan](https://api-jio-saavan.vercel.app), is an unofficial API that allows users to download high-quality songs from [JioSaavn](https://jiosaavn.com). 
         It offers a fast, reliable, and easy-to-use API for developers. \n`
         },
         servers: [{ url: `${protocol}//${hostname}${port ? `:${port}` : ''}`, description: 'Current environment' }]
@@ -78,7 +78,7 @@ export class App {
 
   private initializeRouteFallback() {
     this.app.notFound((ctx) => {
-      return ctx.json({ success: false, message: 'route not found, check docs at https://saavn.dev/docs' }, 404)
+      return ctx.json({ success: false, message: 'route not found, check docs at https://api-jio-saavan.vercel.app/docs' }, 404)
     })
   }
 
